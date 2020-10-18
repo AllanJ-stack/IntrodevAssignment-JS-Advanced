@@ -1,0 +1,137 @@
+body {
+    margin: auto 0;
+    font-family: Arial;
+    background-image: url('img/_background.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 0px;
+    padding-right: 10px;
+
+    font-family: Arial, 'Lucida Sans Unicode';
+}
+
+
+.body {
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+
+
+/* NAV */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    background: none;
+    grid-area: nav;
+
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
+    line-height: 10px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    background-color: black;
+    border-left: 0px;
+}
+
+.mainContent {
+
+    line-height: 25px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    overflow: hidden;
+    margin-top: 25px;
+
+}
+
+/* COVER */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: fantasy;
+    font-size: 20px;
+    height: 30vh;
+    color: white;
+}
+
+/* GRID */
+.grid-wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    height: 50%;
+    padding-left: 10px;
+}
+
+.box>img {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    transition: all 1s;
+    font-size: 12px;
+    font-family: arial;
+
+
+}
+
+img:hover {
+
+    transform: scale(1.1);
+
+}
+
+.box {
+    background-color: rgb(80, 83, 81);
+    padding: 25px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0px;
+    background-color: black;
+    padding: 10px;
+}
